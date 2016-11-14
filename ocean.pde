@@ -29,10 +29,11 @@ void mouseReleased() {
   water.ripple(mouseX, mouseY);
 }
 
-void vibe() {
-  red = map(ax, -15, 15, 0, 255);
-  green = map(ay, -15, 15, 0, 255);
-  blue = map(az, -15, 15, 0, 255);
+// Where the magic happens 
+void vibe() { // good vibes man
+  red = map(ax, -15, 15, 0, 255); // passion
+  green = map(ay, -15, 15, 0, 255); // growth
+  blue = map(az, -15, 15, 0, 255); // tranquility
 }
 
 public void resume() {
